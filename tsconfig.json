@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",              // Modern JavaScript features
+    "module": "esnext",              // Ensures ES module output
+    "lib": ["es2020", "dom"],        // Includes Promises and browser features
+    "strict": true,                  // Enable all strict type-checking options
+    "moduleResolution": "node",      // Ensures compatibility with Node.js
+    "esModuleInterop": true,         // Allows compatibility with CommonJS modules
+    "skipLibCheck": true,            // Skip type checks on library files
+    "outDir": "./dist",              // Output directory for compiled JavaScript
+    "allowSyntheticDefaultImports": true // Simplifies default imports
+  },
+  "include": ["./*.ts"],             // Include all TypeScript files in the current directory
+  "exclude": ["node_modules"]        // Exclude dependencies
+}

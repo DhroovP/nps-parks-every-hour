@@ -1,0 +1,33 @@
+{
+  "name": "nps-parks-every-hour",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "bot.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhroovP/nps-parks-every-hour.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhroovP/nps-parks-every-hour/issues"
+  },
+  "homepage": "https://github.com/DhroovP/nps-parks-every-hour#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node-schedule": "^2.1.7"
+  }
+}
